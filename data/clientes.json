@@ -1,0 +1,41 @@
+{
+    "traceid": "0HMSJHDK2SLVS:00000002",
+    "success": true,
+    "collection": false,
+    "count": 1,
+    "data": [{
+      "id": 1018467,
+      "identificacion": "0925035701",
+      "tipoIdentificacion": "C",
+      "nombres": "LIMONES ESCOBAR WELLINGTON DANIXER",
+      "direccion1": "PAJARO AZUL MZ E7 SOL 11",
+      "telefono1": 42040675,
+      "correoElectronico": "WLIMONESE@GMAIL.COM",
+      "telefonoCelular": "0939832012",
+      "segmentoEstrategico": "PR",
+      "calificacion": "A",
+      "estado": "1",
+      "sexo": "M",
+      "fechaNacimiento": "1987-03-31",
+      "oficial": "EWA",
+      "clienteDesde": "2005-09-23"
+    },
+    {
+      "id": 1018467,
+      "identificacion": "0909868432",
+      "tipoIdentificacion": "C",
+      "nombres": "LIMONES ESCOBAR WELLINGTON DANIXER",
+      "direccion1": "PAJARO AZUL MZ E7 SOL 11",
+      "telefono1": 42040675,
+      "correoElectronico": "WLIMONESE@GMAIL.COM",
+      "telefonoCelular": "0939832012",
+      "segmentoEstrategico": "PR",
+      "calificacion": "A",
+      "estado": "1",
+      "sexo": "M",
+      "fechaNacimiento": "1987-03-31",
+      "oficial": "EWA",
+      "clienteDesde": "2005-09-23"
+    }],
+    "error": null
+  }
