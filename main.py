@@ -180,6 +180,3 @@ async def obtener_tarjetas(identificacion: str, ultimo_cuatro: str = None):
 async def obtener_seguros(identificacion: str):
     seguros = [seguro for seguro in datos_posicionales['seguros'] if seguro['identificacion'].strip() == identificacion]
     return seguros
-
-if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)
