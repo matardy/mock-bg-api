@@ -1,4 +1,4 @@
-from fastapi import FastAPI, HTTPException, Request, status
+from fastapi import FastAPI, HTTPException, status
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import json
@@ -25,9 +25,9 @@ def save_data(archivo, data):
 
 # Cargamos los datos al iniciar la app
 try:
-    clientes = load_data("/mnt/data/clientes.json")
-    movimientos = load_data("/mnt/data/movimientos.json")
-    datos_posicionales = load_data("/mnt/data/posicion_consolidada.json")
+    clientes = load_data("data/clientes.json")
+    movimientos = load_data("data/movimientos.json")
+    datos_posicionales = load_data("data/posicion_consolidada.json")
 except FileNotFoundError:
     raise FileNotFoundError("Uno de los archivos JSON no se encuentra en el directorio especificado.")
 except json.JSONDecodeError:
@@ -49,6 +49,7 @@ class Cliente(BaseModel):
     fechaNacimiento: str
     oficial: str
     clienteDesde: str
+    clave_cajero: str  # Nueva propiedad para la clave del cajero
 
 class Movimiento(BaseModel):
     secuencia: str
@@ -110,32 +111,36 @@ class Autenticacion(BaseModel):
 
 @app.post("/clientes")
 async def agregar_cliente(cliente: Cliente):
+    # Verificar si el cliente ya existe
+    for c in clientes:
+        if c["identificacion"] == cliente.identificacion:
+            raise HTTPException(status_code=400, detail="Cliente ya existe")
     clientes.append(cliente.dict())
-    save_data("/mnt/data/clientes.json", clientes)
+    save_data("data/clientes.json", clientes)
     return {"message": "Cliente agregado con éxito"}
 
 @app.post("/movimientos")
 async def agregar_movimiento(movimiento: Movimiento):
     movimientos.append(movimiento.dict())
-    save_data("/mnt/data/movimientos.json", movimientos)
+    save_data("data/movimientos.json", movimientos)
     return {"message": "Movimiento agregado con éxito"}
 
 @app.post("/tarjetas")
 async def agregar_tarjeta(tarjeta: Tarjeta):
     datos_posicionales['tarjetas'].append(tarjeta.dict())
-    save_data("/mnt/data/posicion_consolidada.json", datos_posicionales)
+    save_data("data/posicion_consolidada.json", datos_posicionales)
     return {"message": "Tarjeta agregada con éxito"}
 
 @app.post("/seguros")
 async def agregar_seguro(seguro: Seguro):
     datos_posicionales['seguros'].append(seguro.dict())
-    save_data("/mnt/data/posicion_consolidada.json", datos_posicionales)
+    save_data("data/posicion_consolidada.json", datos_posicionales)
     return {"message": "Seguro agregado con éxito"}
 
 @app.post("/cuentas")
 async def agregar_cuenta(cuenta: Cuenta):
     datos_posicionales['cuentas'].append(cuenta.dict())
-    save_data("/mnt/data/posicion_consolidada.json", datos_posicionales)
+    save_data("data/posicion_consolidada.json", datos_posicionales)
     return {"message": "Cuenta agregada con éxito"}
 
 @app.post("/autenticar")
