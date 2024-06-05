@@ -18,7 +18,8 @@
       "sexo": "M",
       "fechaNacimiento": "1987-03-31",
       "oficial": "EWA",
-      "clienteDesde": "2005-09-23"
+      "clienteDesde": "2005-09-23",
+      "clave_cajero": "1234"
     },
     {
       "id": 1018467,
