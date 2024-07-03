@@ -1,9 +1,10 @@
 {
-    "traceid": "0HMSJHDK2SLVS:00000002",
-    "success": true,
-    "collection": false,
-    "count": 1,
-    "data": [{
+  "traceid": "0HMSJHDK2SLVS:00000002",
+  "success": true,
+  "collection": false,
+  "count": 1,
+  "data": [
+    {
       "id": 1018467,
       "identificacion": "0925035701",
       "tipoIdentificacion": "C",
@@ -37,6 +38,61 @@
       "fechaNacimiento": "1987-03-31",
       "oficial": "EWA",
       "clienteDesde": "2005-09-23"
-    }],
-    "error": null
-  }
+    },
+    {
+      "id": 1018467,
+      "identificacion": "0922556568",
+      "tipoIdentificacion": "C",
+      "nombres": "SÁNCHEZ PÉREZ JUAN CARLOS",
+      "direccion1": "CALLE PRINCIPAL 123",
+      "telefono1": 12345678,
+      "correoElectronico": "jsanchez@gmail.com",
+      "telefonoCelular": "0987654321",
+      "segmentoEstrategico": "PR",
+      "calificacion": "A",
+      "estado": "1",
+      "sexo": "M",
+      "fechaNacimiento": "1990-05-14",
+      "oficial": "EWA",
+      "clienteDesde": "2010-08-20",
+      "clave_cajero": "1234"
+    },
+    {
+      "id": 1018468,
+      "identificacion": "0911399830",
+      "tipoIdentificacion": "C",
+      "nombres": "RODRÍGUEZ MARTÍNEZ ANA MARÍA",
+      "direccion1": "AVENIDA SEGUNDA 456",
+      "telefono1": 87654321,
+      "correoElectronico": "amrodriguez@gmail.com",
+      "telefonoCelular": "0976543210",
+      "segmentoEstrategico": "PR",
+      "calificacion": "B",
+      "estado": "1",
+      "sexo": "F",
+      "fechaNacimiento": "1985-12-02",
+      "oficial": "EWA",
+      "clienteDesde": "2008-04-15",
+      "clave_cajero": "1234"
+    },
+    {
+      "id": 1018469,
+      "identificacion": "0921795720",
+      "tipoIdentificacion": "C",
+      "nombres": "GÓMEZ LÓPEZ CARLOS EDUARDO",
+      "direccion1": "BARRIO CENTRAL MZ B7",
+      "telefono1": 43218765,
+      "correoElectronico": "cgomez@gmail.com",
+      "telefonoCelular": "0965432109",
+      "segmentoEstrategico": "PR",
+      "calificacion": "C",
+      "estado": "1",
+      "sexo": "M",
+      "fechaNacimiento": "1978-07-22",
+      "oficial": "EWA",
+      "clienteDesde": "2000-11-30",
+      "clave_cajero": "1234"
+    }
+  ],
+  "error": null
+}
