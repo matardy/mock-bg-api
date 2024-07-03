@@ -193,6 +193,13 @@
         "porConfirmar": 0,
         "identificacion": "0922556568"
       }
+    ],
+    "observaciones":[
+      {
+        "identificacion": "0921795720",
+        "tag": "credito",
+        "observacion": "credito aprobado de 5000 dolares americanos"
+      }
     ]
   }
 }
