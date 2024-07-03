@@ -109,6 +109,11 @@ class Autenticacion(BaseModel):
     identificacion: str
     clave_cajero: str
 
+class Observaciones(BaseModel):
+    identificacion: str
+    tag: str
+    observacion: str
+
 @app.post("/clientes")
 async def agregar_cliente(cliente: Cliente):
     # Verificar si el cliente ya existe
@@ -142,6 +147,12 @@ async def agregar_cuenta(cuenta: Cuenta):
     datos_posicionales['cuentas'].append(cuenta.dict())
     save_data("data/posicion_consolidada.json", datos_posicionales)
     return {"message": "Cuenta agregada con éxito"}
+
+@app.post("/observaciones")
+async def agregar_observacion(observacion: Observaciones):
+    datos_posicionales['observaciones'].append(observacion.dict())
+    save_data("data/posicion_consolidada.json", datos_posicionales)
+    return {"message": "Observación agregada con éxito"}
 
 @app.post("/autenticar")
 async def autenticar_usuario(autenticacion: Autenticacion):
@@ -180,3 +191,8 @@ async def obtener_tarjetas(identificacion: str, ultimo_cuatro: str = None):
 async def obtener_seguros(identificacion: str):
     seguros = [seguro for seguro in datos_posicionales['seguros'] if seguro['identificacion'].strip() == identificacion]
     return seguros
+
+@app.get("/observaciones/{identificacion}")
+async def obtener_observaciones(identificacion: str):
+    observaciones = [obs for obs in datos_posicionales['observaciones'] if obs['identificacion'].strip() == identificacion]
+    return observaciones
