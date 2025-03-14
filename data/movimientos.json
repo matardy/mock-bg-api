@@ -1,5 +1,4 @@
 {
-    "traceid": "9a578030d6840cd2",
     "data": [
         {
             "secuencia": "1",
@@ -368,6 +367,22 @@
             "signo": "+",
             "mtcuenta": 15466141,
             "identificacion": "0925035701"
+        },
+        {
+            "secuencia": "1",
+            "tipoMoneda": "USD",
+            "fechaTransaccion": "2025-03-14",
+            "tipoMovimiento": "N/D",
+            "descripcionMovimiento": "Test Movement",
+            "documento": "1234",
+            "referencia": "Test Ref",
+            "montoTransaccion": 100.0,
+            "montoDisponible": 100.0,
+            "montoConfirmar": 100.0,
+            "agencia": "MATRIZ",
+            "signo": "-",
+            "mtcuenta": 15466142,
+            "identificacion": "0925035703"
         }
     ]
 }

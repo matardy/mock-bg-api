@@ -1,205 +1,217 @@
 {
-  "traceid": "0HMUJT5D1TA0U:00000003",
-  "data": {
-    "tarjetas": [
-      {
-        "cuentas": 15466141,
-        "tarjeta": "45671-XXXXX-2309",
-        "principalAdicional": "P",
-        "identificacion": "0909868432",
-        "fchExpiracion": "2023-12-15",
-        "fchApertura": "2019-07-25T14:32:10",
-        "tarjetas": 1,
-        "cupo": 3789,
-        "disponible": 2893.75
-      },
-      {
-        "cuentas": 15467261,
-        "tarjeta": "376651-XXXXX-1011",
-        "principalAdicional": "P",
-        "identificacion": "0909868432",
-        "fchExpiracion": "2024-05-20",
-        "fchApertura": "2018-03-12T08:45:30",
-        "tarjetas": 1,
-        "cupo": 5432,
-        "disponible": 4178.62
-      },
-      {
-        "cuentas": 1004560,
-        "tarjeta": "45431-XXXXX-2555",
-        "principalAdicional": "P",
-        "identificacion": "0909868432",
-        "fchExpiracion": "2025-08-10",
-        "fchApertura": "2020-11-05T16:27:55",
-        "tarjetas": 1,
-        "cupo": 6321,
-        "disponible": 5221.34
-      },
-      {
-        "cuentas": 185072,
-        "tarjeta": "150151-XXXXX-5382",
-        "principalAdicional": "P",
-        "identificacion": "0909868432",
-        "fchExpiracion": "2026-09-28",
-        "fchApertura": "2021-06-18T10:15:42",
-        "tarjetas": 1,
-        "cupo": 7240,
-        "disponible": 6132.09
-      },
-      {
-        "cuentas": 185073,
-        "tarjeta": "150151-XXXXX-5383",
-        "principalAdicional": "P",
-        "identificacion": "0909868432",
-        "fchExpiracion": "2026-09-28",
-        "fchApertura": "2021-06-18T10:15:42",
-        "tarjetas": 1,
-        "cupo": 7240,
-        "disponible": 6132.09
-      },
-      {
-        "cuentas": 185074,
-        "tarjeta": "150151-XXXXX-5384",
-        "principalAdicional": "A",
-        "identificacion": "0909868433",
-        "fchExpiracion": "2027-05-15",
-        "fchApertura": "2022-01-10T11:20:30",
-        "tarjetas": 2,
-        "cupo": 5000,
-        "disponible": 4500.50
-      }
-    ],
-    "seguros": [
-      {
-        "identificacion": "0921795720",
-        "descripcionTipo": "VIDA TERMINO                                      ",
-        "numeroPoliza": "2733",
-        "valorAsegurado": 28000,
-        "fechaVigencia": "2022-11-12T00:00:00",
-        "fechaContratacion": "2022-11-14T00:00:00",
-        "fechaVencimiento": "2023-11-12T00:00:00",
-        "primaTotal": 148.96,
-        "descripcionTipoPlazo": "ANUAL               ",
-        "primaMensual": 0,
-        "estado": "  ",
-        "descripcionEstado": "                    "
-      },
-      {
-        "identificacion": "0921795720",
-        "descripcionTipo": "ACC. PERSONALES - MASIVOS                         ",
-        "numeroPoliza": "AE2EC0044629809",
-        "valorAsegurado": 2000,
-        "fechaVigencia": "2015-08-03T00:00:00",
-        "fechaContratacion": "2015-08-04T00:00:00",
-        "fechaVencimiento": "2023-08-03T00:00:00",
-        "primaTotal": 5.5,
-        "descripcionTipoPlazo": "MENSUAL             ",
-        "primaMensual": 5.29,
-        "estado": "AP",
-        "descripcionEstado": "ACTIVO PAGO         "
-      },
-      {
-        "identificacion": "0911399830",
-        "descripcionTipo": "ROBO                                              ",
-        "numeroPoliza": "CSEEC0044637245",
-        "valorAsegurado": 1000,
-        "fechaVigencia": "2015-08-05T00:00:00",
-        "fechaContratacion": "2015-08-05T00:00:00",
-        "fechaVencimiento": "2023-08-05T00:00:00",
-        "primaTotal": 10.13,
-        "descripcionTipoPlazo": "MENSUAL             ",
-        "primaMensual": 8.7,
-        "estado": "AP",
-        "descripcionEstado": "ACTIVO PAGO         "
-      },
-      {
-        "identificacion": "0911399830",
-        "descripcionTipo": "INCENDIO                                          ",
-        "numeroPoliza": "404154",
-        "valorAsegurado": 149300,
-        "fechaVigencia": "2023-01-03T00:00:00",
-        "fechaContratacion": "2023-01-13T00:00:00",
-        "fechaVencimiento": "2024-01-03T00:00:00",
-        "primaTotal": 1181.58,
-        "descripcionTipoPlazo": "ANUAL               ",
-        "primaMensual": 0,
-        "estado": "  ",
-        "descripcionEstado": "                    "
-      }
-    ],
-    "cuentas": [
-      {
-        "masa": "PAS",
-        "tip": "AH",
-        "mtcuenta": 15466141,
-        "clkRelacion": "TIT",
-        "concesion": 20221203,
-        "vencimiento": 0,
-        "saldoTotal": 0,
-        "efectivo": 0,
-        "valorPendiente": 0,
-        "porConfirmar": 0,
-        "identificacion": "0925035701"
-      },
-      {
-        "masa": "PAS",
-        "tip": "AH",
-        "mtcuenta": 15467261,
-        "clkRelacion": "TIT",
-        "concesion": 20221204,
-        "vencimiento": 0,
-        "saldoTotal": 298.36,
-        "efectivo": 298.36,
-        "valorPendiente": 0,
-        "porConfirmar": 0,
-        "identificacion": "0925035701"
-      },
-      {
-        "masa": "PAS",
-        "tip": "AH",
-        "mtcuenta": 1004560,
-        "clkRelacion": "TIT",
-        "concesion": 19950728,
-        "vencimiento": 0,
-        "saldoTotal": 0,
-        "efectivo": 0,
-        "valorPendiente": 9.05,
-        "porConfirmar": 0,
-        "identificacion": "0925035701"
-      },
-      {
-        "masa": "PAS",
-        "tip": "AH",
-        "mtcuenta": 27347180,
-        "clkRelacion": "TIT",
-        "concesion": 20220114,
-        "vencimiento": 0,
-        "saldoTotal": 8.56,
-        "efectivo": 8.56,
-        "valorPendiente": 0,
-        "porConfirmar": 0,
-        "identificacion": "0925035701"
-      },
-      {
-        "masa": "PAS",
-        "tip": "AH",
-        "mtcuenta": 15477131,
-        "clkRelacion": "TIT",
-        "concesion": 20221244,
-        "vencimiento": 0,
-        "saldoTotal": 120.22,
-        "efectivo": 0,
-        "valorPendiente": 0,
-        "porConfirmar": 0,
-        "identificacion": "0922556568"
-      }
-    ],
-    "observaciones":[
-      {
-        "identificacion": "0921795720",
-        "tag": "credito",
-        "observacion": "credito aprobado de 5000 dolares americanos"
-      }
-    ]
-  }
+    "data": {
+        "tarjetas": [
+            {
+                "cuentas": 15466141,
+                "tarjeta": "45671-XXXXX-2309",
+                "principalAdicional": "P",
+                "identificacion": "0909868432",
+                "fchExpiracion": "2023-12-15",
+                "fchApertura": "2019-07-25T14:32:10",
+                "tarjetas": 1,
+                "cupo": 3789,
+                "disponible": 2893.75
+            },
+            {
+                "cuentas": 15467261,
+                "tarjeta": "376651-XXXXX-1011",
+                "principalAdicional": "P",
+                "identificacion": "0909868432",
+                "fchExpiracion": "2024-05-20",
+                "fchApertura": "2018-03-12T08:45:30",
+                "tarjetas": 1,
+                "cupo": 5432,
+                "disponible": 4178.62
+            },
+            {
+                "cuentas": 1004560,
+                "tarjeta": "45431-XXXXX-2555",
+                "principalAdicional": "P",
+                "identificacion": "0909868432",
+                "fchExpiracion": "2025-08-10",
+                "fchApertura": "2020-11-05T16:27:55",
+                "tarjetas": 1,
+                "cupo": 6321,
+                "disponible": 5221.34
+            },
+            {
+                "cuentas": 185072,
+                "tarjeta": "150151-XXXXX-5382",
+                "principalAdicional": "P",
+                "identificacion": "0909868432",
+                "fchExpiracion": "2026-09-28",
+                "fchApertura": "2021-06-18T10:15:42",
+                "tarjetas": 1,
+                "cupo": 7240,
+                "disponible": 6132.09
+            },
+            {
+                "cuentas": 185073,
+                "tarjeta": "150151-XXXXX-5383",
+                "principalAdicional": "P",
+                "identificacion": "0909868432",
+                "fchExpiracion": "2026-09-28",
+                "fchApertura": "2021-06-18T10:15:42",
+                "tarjetas": 1,
+                "cupo": 7240,
+                "disponible": 6132.09
+            },
+            {
+                "cuentas": 185074,
+                "tarjeta": "150151-XXXXX-5384",
+                "principalAdicional": "A",
+                "identificacion": "0909868433",
+                "fchExpiracion": "2027-05-15",
+                "fchApertura": "2022-01-10T11:20:30",
+                "tarjetas": 2,
+                "cupo": 5000,
+                "disponible": 4500.5
+            }
+        ],
+        "seguros": [
+            {
+                "identificacion": "0921795720",
+                "descripcionTipo": "VIDA TERMINO                                      ",
+                "numeroPoliza": "2733",
+                "valorAsegurado": 28000,
+                "fechaVigencia": "2022-11-12T00:00:00",
+                "fechaContratacion": "2022-11-14T00:00:00",
+                "fechaVencimiento": "2023-11-12T00:00:00",
+                "primaTotal": 148.96,
+                "descripcionTipoPlazo": "ANUAL               ",
+                "primaMensual": 0,
+                "estado": "  ",
+                "descripcionEstado": "                    "
+            },
+            {
+                "identificacion": "0921795720",
+                "descripcionTipo": "ACC. PERSONALES - MASIVOS                         ",
+                "numeroPoliza": "AE2EC0044629809",
+                "valorAsegurado": 2000,
+                "fechaVigencia": "2015-08-03T00:00:00",
+                "fechaContratacion": "2015-08-04T00:00:00",
+                "fechaVencimiento": "2023-08-03T00:00:00",
+                "primaTotal": 5.5,
+                "descripcionTipoPlazo": "MENSUAL             ",
+                "primaMensual": 5.29,
+                "estado": "AP",
+                "descripcionEstado": "ACTIVO PAGO         "
+            },
+            {
+                "identificacion": "0911399830",
+                "descripcionTipo": "ROBO                                              ",
+                "numeroPoliza": "CSEEC0044637245",
+                "valorAsegurado": 1000,
+                "fechaVigencia": "2015-08-05T00:00:00",
+                "fechaContratacion": "2015-08-05T00:00:00",
+                "fechaVencimiento": "2023-08-05T00:00:00",
+                "primaTotal": 10.13,
+                "descripcionTipoPlazo": "MENSUAL             ",
+                "primaMensual": 8.7,
+                "estado": "AP",
+                "descripcionEstado": "ACTIVO PAGO         "
+            },
+            {
+                "identificacion": "0911399830",
+                "descripcionTipo": "INCENDIO                                          ",
+                "numeroPoliza": "404154",
+                "valorAsegurado": 149300,
+                "fechaVigencia": "2023-01-03T00:00:00",
+                "fechaContratacion": "2023-01-13T00:00:00",
+                "fechaVencimiento": "2024-01-03T00:00:00",
+                "primaTotal": 1181.58,
+                "descripcionTipoPlazo": "ANUAL               ",
+                "primaMensual": 0,
+                "estado": "  ",
+                "descripcionEstado": "                    "
+            }
+        ],
+        "cuentas": [
+            {
+                "masa": "PAS",
+                "tip": "AH",
+                "mtcuenta": 15466141,
+                "clkRelacion": "TIT",
+                "concesion": 20221203,
+                "vencimiento": 0,
+                "saldoTotal": 0,
+                "efectivo": 0,
+                "valorPendiente": 0,
+                "porConfirmar": 0,
+                "identificacion": "0925035701"
+            },
+            {
+                "masa": "PAS",
+                "tip": "AH",
+                "mtcuenta": 15467261,
+                "clkRelacion": "TIT",
+                "concesion": 20221204,
+                "vencimiento": 0,
+                "saldoTotal": 298.36,
+                "efectivo": 298.36,
+                "valorPendiente": 0,
+                "porConfirmar": 0,
+                "identificacion": "0925035701"
+            },
+            {
+                "masa": "PAS",
+                "tip": "AH",
+                "mtcuenta": 1004560,
+                "clkRelacion": "TIT",
+                "concesion": 19950728,
+                "vencimiento": 0,
+                "saldoTotal": 0,
+                "efectivo": 0,
+                "valorPendiente": 9.05,
+                "porConfirmar": 0,
+                "identificacion": "0925035701"
+            },
+            {
+                "masa": "PAS",
+                "tip": "AH",
+                "mtcuenta": 27347180,
+                "clkRelacion": "TIT",
+                "concesion": 20220114,
+                "vencimiento": 0,
+                "saldoTotal": 8.56,
+                "efectivo": 8.56,
+                "valorPendiente": 0,
+                "porConfirmar": 0,
+                "identificacion": "0925035701"
+            },
+            {
+                "masa": "PAS",
+                "tip": "AH",
+                "mtcuenta": 15477131,
+                "clkRelacion": "TIT",
+                "concesion": 20221244,
+                "vencimiento": 0,
+                "saldoTotal": 120.22,
+                "efectivo": 0,
+                "valorPendiente": 0,
+                "porConfirmar": 0,
+                "identificacion": "0922556568"
+            },
+            {
+                "masa": "PAS",
+                "tip": "AH",
+                "mtcuenta": 15466142,
+                "clkRelacion": "TIT",
+                "concesion": 20230515,
+                "vencimiento": 0,
+                "saldoTotal": 1500.5,
+                "efectivo": 1500.5,
+                "valorPendiente": 0.0,
+                "porConfirmar": 0.0,
+                "identificacion": "0925035703"
+            }
+        ],
+        "observaciones": [
+            {
+                "identificacion": "0921795720",
+                "tag": "credito",
+                "observacion": "credito aprobado de 5000 dolares americanos"
+            }
+        ]
+    }
 }
